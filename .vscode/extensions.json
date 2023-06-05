@@ -1,4 +1,4 @@
 {
-  "recommendations": ["esbenp.prettier-vscode","naumovs.color-highlight","mosapride.zenkaku","oderwat.indent-rainbow"],
+  "recommendations": ["esbenp.prettier-vscode","naumovs.color-highlight","mosapride.zenkaku"],
   "unwantedRecommendations": []
 }

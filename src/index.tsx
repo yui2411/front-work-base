@@ -5,12 +5,12 @@ import { App } from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "@mui/material";
 import { BrowserRouter } from "react-router-dom";
-import { baseTheme } from "./BaseTheme";
+import { theme } from "./theme";
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
   <React.StrictMode>
-    <ThemeProvider theme={baseTheme}>
+    <ThemeProvider theme={theme}>
       <BrowserRouter>
         <App />
       </BrowserRouter>
