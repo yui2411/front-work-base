@@ -1,7 +1,7 @@
 import { Box, SxProps, Theme } from "@mui/material";
 
 export const Header = () => {
-  return (
+　return (
     <Box className="Header" sx={sx}>
       ヘッダー
     </Box>
@@ -9,7 +9,12 @@ export const Header = () => {
 };
 
 const sx: SxProps<Theme> = {
-  "&.Header" : {
-    width: "100%",
+"&.Header" : {
+  width: "100%",
+  // レスポンシブデザインの定義
+  backgroundColor: {
+    md:"red",
+    xs:"blue",
+    },
   },
 };
